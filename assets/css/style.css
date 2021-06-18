@@ -1,0 +1,58 @@
+body {
+  box-sizing: border-box;
+  background-color: rgb(149, 149, 149);
+}
+.card {
+  width: 270px;
+  background-color: rgb(56, 56, 56);
+  border-radius: 20px;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  margin-top: 200px;
+  margin-left: 400px;
+  box-shadow: 4px 5px rgb(84, 128, 250);
+}
+.title {
+  font-size: 30px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 20px;
+  font-weight: bold;
+}
+figure > img {
+  max-width: 120px;
+  border-radius: 50%;
+  margin: 25px;
+  box-shadow: 4px 5px rgb(84, 128, 250);
+}
+.btn {
+  border-radius: 15px;
+  margin: 10px 10px 15px 17px;
+  width: 105px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 3px 5px 3px 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(114, 77, 216);
+  color: white;
+}
+.follower {
+  display: inline-block;
+  margin: 30px 5px;
+  color: white;
+  font-size: 15px;
+}
+p {
+  text-align: justify;
+  padding: 0 20px 0 20px;
+  color: white;
+  font-size: 15px;
+}
+.digit {
+  font-size: 20px;
+  margin-bottom: -15px;
+}
